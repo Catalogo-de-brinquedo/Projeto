@@ -1,11 +1,20 @@
 nav {
+    font-size: 1.5rem;
     background-color: #c23d00;
     padding: 1.5rem;
     text-align: center;
 }
 
-nav a{
+nav a {
     color: white;
+    padding: 10px 15px;
     text-decoration: none;
-    margin: 50px;
+    margin-left: 6rem;
+    font-weight: 700;
 }
+
+nav a:hover{
+    transition: 0.7s;
+color: #eba07d ;
+}
+
