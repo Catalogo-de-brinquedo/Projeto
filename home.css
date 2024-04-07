@@ -106,3 +106,8 @@ p{
     color: #333; /* Define a cor do texto do link */
 }
 
+.produtos-lista a:hover {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: var(--cor-primaria)
+}
+

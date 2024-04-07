@@ -1,7 +1,82 @@
 footer {
     background-color: var(--cor-secundaria);
     color: var(--cor-terciaria);
-    text-align: center;
-    padding: 2rem;
+    padding: 3rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.imagem-footer img {
+    width: 100px; 
+    height: auto; 
+    margin-left: 5rem;
+}
+
+.copy{
     font-size: 1.25rem;
 }
+
+.formulario {
+    display: flex;
+    align-items: center;
+}
+
+.formulario input[type="text"] {
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    margin-left: 8rem;
+}
+
+.formulario{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+input{
+    padding: 1rem;
+    border-radius: 12px;
+    border: none;
+    margin-top: 1rem;
+}
+
+footer form [type="submit"] {
+    border: 2px solid #DBEB10 ;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    cursor: pointer;
+    transition: .3s;
+    margin-right: 6rem;
+}
+
+footer form input[type="submit"]:hover {
+    background-color: #DBEB10;
+    color: var(--cor-secundaria);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: block;
+    margin: 0 10px;
+}
+
+.integrantes{
+    color: #504a4a; 
+    display: inline-block;
+}
+
+label{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
