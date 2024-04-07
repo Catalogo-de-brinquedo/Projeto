@@ -102,12 +102,12 @@ p{
 }
 
 .produtos-lista a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #333; /* Define a cor do texto do link */
+    text-decoration: none; 
+    color: #333; 
 }
 
 .produtos-lista a:hover {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    text-decoration: none; 
     color: var(--cor-primaria)
 }
 

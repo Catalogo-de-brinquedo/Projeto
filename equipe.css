@@ -1,13 +1,61 @@
 
+nav {
+    font-size: 1.5rem;
+    background-color: var(--cor-primaria);
+    padding: 1.5rem;
+    height: 60px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-left: 6rem;
+    font-weight: 700;
+    height: 100%;
+}
+
+nav a:hover{
+transition: 0.5s;
+color: #fffb00 ;
+}
+
+#img{
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.navbar-list{
+    display: inline-flex;
+
+   
+}
+
+.navbar-list li{
+    height: 100%;
+    list-style: none;
+}
+
+ 
+.equipes{
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style-type: none;
+}
 
 
 hr{
     color: #333;
 }
 
-
-
-
+.equipes h1{
+    color: var(--cor-primaria);
+    font-size: 4rem;
+    font-family: "Prompt", sans-serif;
+    text-transform: uppercase;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -30,6 +78,7 @@ hr{
     margin: 16px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
 }
 
 a{
@@ -43,9 +92,13 @@ a{
     box-shadow: 0 0px 20px var(--cor-primaria);
 }
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 12px;
+}
+
+.vazio{
+    margin: 13rem;
 }
