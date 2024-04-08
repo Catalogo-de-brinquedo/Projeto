@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0px 20px var(--cor-primaria);
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.vazio{
+    margin: 13rem;
+}
+
+
+/* css das paginas seguintes da categoria */
+
+
+.details h3{
+    font-size: 2rem;
+
+}
+
+.details p{
+    font-size: 1.5rem;
+}
