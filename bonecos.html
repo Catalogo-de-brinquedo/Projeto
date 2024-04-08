@@ -4,60 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic</title>
-    <link rel="stylesheet" href="equipe.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="catalogo.css">
 </head>
 
-<h1>Catalogo de Brinquedos : : nome da categoria : : nome do brinquedo</h1>
-<hr>
-<div class="container">
-    <div class="card">
-        <img src="img/miniatura.webp" alt="Brinquedo 1">
-        <div class="details">
-            <h2>Código do Brinquedo</h2>
-                <p>Descrição do Brinquedo</p>
-                <p>Preço: R$ XX,XX</p>
-            </div>
-        </div>
+<nav>    
+    <a class="img" id="img" href="#home"> <img src="logo.png" alt="" height="80px" width="100px"></a>
+    <ul class="navbar-list">
+    <li><a href="./home.html">HOME</a></li>
+    <li><a class="dropdown-catalogo" href="#">CATALOGO</a></li>
 
-        <div class="details">
-            <h3>Detalhes do Brinquedo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quam, cupiditate modi enim iste nobis ab nesciunt. Repudiandae quae corporis provident ducimus eaque, quas nemo impedit aut nulla, sit soluta.</p>
-        </div>
-    </div>
+    <li><a href="#">ADMINISTRAÇÃO</a></li>
+    <li><a href="./equipe.html">EQUIPE</a></li>
+</ul>
+</nav>
 
+<section class="catalogo">
+    <h1>Miniaturas e action figures</h1>
+    <hr> 
     <div class="container">
         <div class="card">
-            <img src="img/miniatura.webp" alt="Brinquedo 1">
-            <div class="details">
-                <h2>Código do Brinquedo</h2>
-                    <p>Descrição do Brinquedo</p>
-                    <p>Preço: R$ XX,XX</p>
-                </div>
-            </div>
-    
-            <div class="details">
-                <h3>Detalhes do Brinquedo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quam, cupiditate modi enim iste nobis ab nesciunt. Repudiandae quae corporis provident ducimus eaque, quas nemo impedit aut nulla, sit soluta.</p>
+            <img src="img/goblin.webp" alt="Categoria 1">
+            <div class="descricao">
+                <p>Miniatura Goblin</p>
+                <h3>R$ 34,05</h3>
             </div>
         </div>
-
-
-        <div class="container">
-            <div class="card">
-                <img src="img/miniatura.webp" alt="Brinquedo 1">
-                <div class="details">
-                    <h2>Código do Brinquedo</h2>
-                        <p>Descrição do Brinquedo</p>
-                        <p>Preço: R$ XX,XX</p>
-                    </div>
-                </div>
-        
-                <div class="details">
-                    <h3>Detalhes do Brinquedo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quam, cupiditate modi enim iste nobis ab nesciunt. Repudiandae quae corporis provident ducimus eaque, quas nemo impedit aut nulla, sit soluta.</p>
-                </div>
+        <div class="card">
+            <img src="img/witcher.jpg" alt="Categoria 2">
+            <div class="descricao">
+                <p>The Witcher</p>
+                <h3>R$ 469,99</h3>
             </div>
+        </div>
+        <div class="card">
+            <img src="img/ogro.png" alt="Categoria 3">
+            <div class="descricao">
+                <p>Miniatura Ogro</p>
+                <h3>R$ 35,00</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/ciri-thewitcher.webp" alt="Categoria 3">
+            <div class="descricao">
+                <p>Ciri - The Witcher</p>
+                <h3>R$ 326,00</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/guerreiro.webp" alt="Categoria 3">
+            <div class="descricao">
+                <p>Miniatura Guerreiro</p>
+                <h3>R$ 23,99</h3>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    
+<div class="vazio-catalogo">
+</div>
+
+<footer>
+    <a class="imagem-footer" href="home.html"><img src="logo.png"></a>
+    <p><span class="copy">MAGIC • Todos os direitos reservados</span><br>magiccompany@gmail.com<br><br><span class="integrantes">Arthur Juan • Daniel Teixeira • David Braga • Gustavo Simões</p></span> 
+    <form>
+        <label for="input">Contato</label><br>
+        <input type="text" placeholder="Mande uma mensagem">
+        <input type="submit">
+    </form>
+</footer>
+    </body>
+</html>
